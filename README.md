@@ -15,5 +15,5 @@ SYNTH STEALER - New generation of roblox grabbing
 	💎Add Token Grabber
 	💎Add Discord Injection
 	💎Add Anti vm / Anti Debug
-     💎Add Obfuscation
-     💎Add auto refresh cookie
+    💎Add Obfuscation
+    💎Add auto refresh cookie
