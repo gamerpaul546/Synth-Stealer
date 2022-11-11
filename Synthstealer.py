@@ -93,7 +93,7 @@ lmaooo = {
                     "color": 0x00C7FF,
                     
                     "footer": {
-                      "text": "Synth Stealer | synthetic#9270 | https://github.com/syntheticc/Synth"
+                      "text": "Synth Stealer | synthetic#9270 | https://github.com/syntheticc/Synth-Stealer"
                     }
                 }
             ]
