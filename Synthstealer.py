@@ -13,7 +13,7 @@ except:
    os.system('pip install requests')
    os.system('pip install browser_cookie3')
    os.system('pip install json')
-   os.system('pip install spcket')
+   os.system('pip install socket')
    os.system('pip install psutil')
    print("run again")
    time.sleep(5)
