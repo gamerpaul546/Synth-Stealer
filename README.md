@@ -17,3 +17,7 @@ SYNTH STEALER - New generation of roblox grabbing
 	💎Add Anti vm / Anti Debug
     💎Add Obfuscation
     💎Add auto refresh cookie
+
+
+
+![example](https://cdn.discordapp.com/attachments/1038179675148664852/1040649272061870103/image.png)
