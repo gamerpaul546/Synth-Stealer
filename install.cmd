@@ -6,3 +6,10 @@ pip install psutil
 pip install os
 pip install roblcx_cookie3
 pip install socket
+pip install re
+pip install crypt
+pip install win32crypt
+pip install base64
+pip install datetime
+pip install time
+pip install urllib
